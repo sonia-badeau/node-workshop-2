@@ -27,4 +27,16 @@ function lastCharacter(word, ret) {
 }
 lastCharacter('lapin', console.log);
     
+//Create a function that takes a string and a continuation (callback)
 
+function phrase (myString){
+    return myString;
+}
+phrase("Hello!");
+
+function getFirstAndLastChar (word, ret){
+    ret(word[0]) + ret (word[word.length - 1]);
+}
+getFirstAndLastChar("hello", function(newStr) { console.log(newStr); })
+
+    
